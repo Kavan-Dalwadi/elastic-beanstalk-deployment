@@ -21,3 +21,4 @@ jobs:
         environment_name: ${{ secrets.EB_ENV_NAME }}
         version_label: ${{ secrets.VER_LABEL }}
         region: ${{ secrets.REGION }}
+        deployment_package: deploy.zip
