@@ -25,4 +25,4 @@ jobs:
         version_label: ${{ github.sha }}
         region: ${{ secrets.REGION }}
         deployment_package: deploy.zip
-        use_existing_version_if_available: true
+#        use_existing_version_if_available: true
